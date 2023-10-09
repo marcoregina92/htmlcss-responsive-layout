@@ -18,3 +18,79 @@ header {
     margin: 0 auto;
 }
 
+.demo, .planning, .testimonials, .benefits, .about-us, .get-started {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blue-box {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 350px;
+    background-color: #B5DDFF;
+    margin-top: 40px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.planning, .benefits, .get-started {
+    background-color: #9792E4;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+
+.planning-box {
+    width: 80%;
+    margin: 20px auto;
+    min-height: 200px;
+    background-color: goldenrod;
+    text-align: center;
+}
+
+.planning, .planning-box, .testimonials > p{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.testimonials-box {
+    width: 80%;
+    min-height: 350px;
+    background-color: #9792E4;
+    margin-top: 40px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.testimonials > h2 {
+    text-align: center;
+}
+
+.benefits-box {
+    width: 70%;
+    min-height: 200px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.about-us-box {
+    width: 80%;
+    min-height: 270px;
+    background-color: green;
+    margin-top: 40px;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+
+}
+
+.container-footer {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 100px;
+    text-align: center;
+}
