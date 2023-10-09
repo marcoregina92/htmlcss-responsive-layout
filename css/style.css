@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: #0084FD;
+    min-height: 4rem;
+}
+
+.menu {
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
