@@ -30,13 +30,14 @@ p {
 }
 
 .button-violet {
-    width: 16%;
+    width: 80%;
     background-color: #9792E4;
     color: black;
     padding: 15px;
-    border-radius: 50%;
+    border-radius: 30px;
     font-size: 18px;
     margin: 20px auto;
+    text-align: center;
 }
 
 .button-violet-big {
@@ -74,6 +75,11 @@ header {
     margin: 0 auto;
 }
 
+.menu-right a {
+    text-decoration: none;
+    display: none;  
+}
+
 .demo, .planning, .testimonials, .benefits, .get-started {
     display: flex;
     align-items: center;
@@ -84,7 +90,6 @@ header {
     width: 80%;
     display: flex;
     margin: 0 auto;
-    min-height: 350px;
     background-color: #B5DDFF;
     margin-top: 40px;
     border-radius: 30px;
@@ -153,6 +158,7 @@ header {
 }
 
 .relative {
+    position: relative;
     height: 0;
 }
 
@@ -176,4 +182,39 @@ footer {
     margin: 0 auto;
     min-height: 100px;
     text-align: center;
+}
+
+
+
+/* --- MEDIAQUERY --- */
+
+@media screen and (min-width: 768px) {
+
+    .big-card {
+        width: calc(66.6666% - 16px);
+        margin-right: 16px;
+        margin-bottom: 16px;
+    }
+
+    .small-card {
+        width: calc(33.3333% - 16px);
+        margin-bottom: 16px;
+    }
+
+    .demo {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+        align-items: normal;
+    }
+    
+    .demo img {
+        max-width: 76%;
+    }
+
+    .button-blue {
+        width: 45%;
+        margin-left: 20px;
+    }
 }
